@@ -7,7 +7,7 @@
 ## check etcd version
 
 ```sh
-ETCDCTL_API=3 etcdctl --version
+export ETCDCTL_API=3
 ```
 
 ## List etcd member
