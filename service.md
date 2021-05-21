@@ -16,9 +16,4 @@ spec:
       targetPort: 8080  # Containter's port
 ```
 
-let say your host machine is `10.10.10.20` you can hit service http by `10.10.10.20:30745` :
-
-```
-flow
-host port -> service port -> container port
-```
+let say your host machine is `10.10.10.20` you can hit service http by `10.10.10.20:30745` : `host port -> service port -> container port`
