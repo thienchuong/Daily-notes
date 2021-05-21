@@ -19,5 +19,6 @@ spec:
 let say your host machine is `10.10.10.20` you can hit service http by `10.10.10.20:30745` :
 
 ```
-10.10.10.20:30745 -> host port -> service port -> container port
+flow
+host port -> service port -> container port
 ```
