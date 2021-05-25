@@ -4,6 +4,12 @@
 
 - Taints are the opposite. Taints allow a node to repel a set of pods
 
+> note: taint and toleration does not tell the pod to go to a particular node. Instead it tells the node to only accept pod with certain toleration. 
+
+> If your requirement is to restrict a pod to certain node it is achieved through another concept called **Node Affinity**
+
+Ask node affinity which we will discuss in the next lecture finally.
+
 ## Spec: Effects
 
 - *NoSchedule*: If the pod don't match the toleration on the node, It won’t be able to schedule onto the node
