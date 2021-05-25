@@ -4,7 +4,7 @@
 
 [ETCD](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/#backing-up-an-etcd-cluster)
 
-## check etcd version
+## Set etcd version
 
 ```sh
 export ETCDCTL_API=3
