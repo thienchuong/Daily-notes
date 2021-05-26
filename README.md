@@ -1,1 +1,1 @@
-# CKA
+# I have a shit brain and that is the reason why I need to note everything I learn. Sometimes I forget where is my note locate
